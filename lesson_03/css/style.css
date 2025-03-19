@@ -1,0 +1,69 @@
+* {
+	color: yellowgreen;
+}
+.header div{
+	color: black;
+}
+#link-1{
+	color: brown;
+}
+.article-title, .article-subtitle{
+	color: green;
+}
+.nav-menu-link{
+	color: blue;
+	text-decoration: underline;
+}
+.article > p{
+	color: gray;
+}
+.article + p{
+	color: black;
+}
+.article-text p{
+	color: gray;
+}
+.article-text .text{
+	color: green;
+}
+[class*="pa"] {
+	color: blue;
+}
+.article-block p{
+	color: orange;
+}
+.article-block span{
+	color: rebeccapurple;
+}
+.article-block p mark{
+	color: rebeccapurple;
+}
+.article-text .block{
+	color: sienna;
+}
+.copy{
+	color: orangered;
+}
+.copy a{
+	color: blue;
+	text-decoration: underline;
+}
+div.red{
+	color: red;
+}
+.text .p{
+	color: blue;
+}
+.text.p{
+	color: orange;
+}
+.article ~ a.link-up {
+	color: blue;
+	text-decoration: underline;
+}
+.text-block *{
+	color: fuchsia;
+}
+
+
+
