@@ -1,0 +1,133 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500&display=swap");
+
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 17px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+.header{
+	font-family: "AvenirNextCyr", sans-serif;
+	text-align: right;
+}
+#up{
+	font-size: 26px;
+	font-weight: 700;
+	color: red;
+}
+.menu-link{
+	color: #0e12dc;
+	font-weight: 300;
+	text-decoration: underline;
+}
+.title{
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.article-subtitle{
+	font-size: 24px;
+	line-height: 2;
+}
+.article > p{
+	text-align: center;
+	/* color: rgba(0, 0, 255, 0.6); */
+	color: blue;
+	text-shadow: 3px 2px 7px yellow;
+}
+.article-paragraph p{
+	/* color: rgba(16, 14, 14, 0.6);  */
+	color: #848181;
+}
+.mono{
+	font-family: monospace, sans-serif;
+	word-spacing: -5px;
+	text-shadow: 2px 5px 10px rgba(13, 24, 188, 0.981);
+	color: brown;
+}
+.anc-700{
+	font-family: "AvenirNextCyr", sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+	color: #000;
+}
+.anc-300{
+	font-family: "AvenirNextCyr", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+span.fake{
+	text-transform: lowercase;
+	text-decoration: line-through;
+}
+.over-line{
+	text-decoration: overline;
+	text-decoration-color: red;
+}
+.why{
+	font-family: cursive, sans-serif;
+}
+.fact{
+	text-decoration: underline;
+	text-decoration-color: rgba(0, 0, 255, 0.411);
+	color: #000;
+	font-weight: 500;
+}
+.big-letter{
+	text-transform: uppercase;
+	text-shadow: 1px 3px 20px green;
+}
+.peoples{
+	font-style: italic;
+	text-decoration: underline;
+}
+.article-list{
+	color: rgba(42, 3, 3, 0.688);
+	text-decoration: underline;
+	font-style: oblique;
+}
+.article-paragraph-right{
+	text-align: right;
+}
+.article-paragraph-justify{
+	text-align: justify;
+}
+.article-paragraph-center{
+	text-align: center;
+}
+.copy{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+	word-spacing: 5px;
+}
+.link-up{
+	color: blue;
+	text-decoration: underline;
+}
+.text-shadow{
+	text-shadow: 0px 3px 4px rgba(220, 20, 60, 0.496);
+}
+.eco{
+	font-family: "Poppins", sans-serif;
+	color: #808080;
+}
+.eco-title{
+	font-size: 20px;
+	font-weight: 500;
+	color: #1A1A1A;
+	white-space: nowrap;
+}
+.eco-text{
+	font-size: 18px;
+}
+.image{
+	text-align: center;
+}
+
