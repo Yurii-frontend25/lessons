@@ -1,0 +1,97 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+@import url("reset.css");
+
+body {
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+}
+
+.advantages{
+	background-color: #231F8B;
+	padding: 112px 0;
+	overflow: hidden;
+}
+.advantages-container{
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.advantages-body{
+	max-width: 765px;
+	margin-bottom: 70px;
+}
+.advantages-label{
+	color: #5A54F2;
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 0.2px;
+	font-size: 14px;
+	line-height: 1.71;
+}
+.advantages-title{
+	font-family: "Circular Std", sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.27;
+}
+.advantages-text{
+	font-family: "Circular Std", sans-serif;
+	font-weight: 450;
+	font-size: 14px;
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+.advantages-items {
+	margin: 0 -15px;
+	font-size: 0;
+}
+.advantages-item {
+	display: inline-block;
+	max-width: 24.074074%;
+	font-size: 16px;	
+	padding: 0 15px;
+	vertical-align: top;
+}
+.advantages-item-even{
+	margin-top: 50px;
+}
+.advantages-item-body {
+	padding: 35px 52px 35px 40px;
+	background-color: #fff;
+}
+.advantages-item-image {
+	margin-bottom: 20px;
+}
+.advantages-item-image img{
+	max-width: 100%;
+}
+.advantages-item-title {
+	font-family: "Circular Std", sans-serif;
+	color: #252B42;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.line{
+	display: inline-block;
+	background-color: #E74040;
+	width: 50px;
+	height: 2px;
+	margin-bottom: 20px;
+}
+.advantages-item-text {
+	color: #737373;
+	font-size: 14px;
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+.hover-effect{
+	background-color: #5A54F2;
+	color: #fff;
+}
+.line.hover-effect{
+	background-color: #fff;
+}
