@@ -19,7 +19,6 @@ body {
 	padding: 0 15px;
 }
 .advantages-body{
-	max-width: 765px;
 	margin-bottom: 70px;
 }
 .advantages-label{
@@ -42,6 +41,7 @@ body {
 	font-size: 14px;
 	line-height: 1.42;
 	letter-spacing: 0.2px;
+	max-width: 765px;
 }
 .advantages-items {
 	margin: 0 -20px;
@@ -50,7 +50,7 @@ body {
 .advantages-item {
 	display: inline-block;
 	max-width: 270px;
-	font-size: 16px;	
+	font-size: 16px;
 	padding: 0 20px;
 	vertical-align: top;
 }
