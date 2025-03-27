@@ -43,16 +43,13 @@ body {
 	letter-spacing: 0.2px;
 	max-width: 765px;
 }
-.advantages-items {
-	margin: 0 -15px;
-	font-size: 0;
-}
 .advantages-item {
 	display: inline-block;
-	max-width: 270px;
-	font-size: 16px;
-	padding: 0 15px;
-	vertical-align: top;
+	max-width: 230px;
+	vertical-align: top;	
+}
+.advantages-item + .advantages-item{
+	margin-left: 39px;
 }
 .advantages-item-even{
 	margin-top: 50px;
