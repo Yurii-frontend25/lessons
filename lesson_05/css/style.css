@@ -14,7 +14,7 @@ body {
 	overflow: hidden;
 }
 .advantages-container{
-	max-width: 1070px;
+	max-width: 1080px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -44,14 +44,14 @@ body {
 	max-width: 765px;
 }
 .advantages-items {
-	margin: 0 -20px;
+	margin: 0 -15px;
 	font-size: 0;
 }
 .advantages-item {
 	display: inline-block;
 	max-width: 270px;
 	font-size: 16px;
-	padding: 0 20px;
+	padding: 0 15px;
 	vertical-align: top;
 }
 .advantages-item-even{
