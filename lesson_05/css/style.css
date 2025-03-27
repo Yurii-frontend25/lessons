@@ -44,16 +44,15 @@ body {
 	max-width: 765px;
 }
 .advantages-items{
+	margin: 0 -15px;
 	font-size: 0;
 }
 .advantages-item {
 	display: inline-block;
-	max-width: 230px;
 	vertical-align: top;	
 	font-size: 16px;
-}
-.advantages-item + .advantages-item{
-	margin-left: 43px;
+	max-width: 270px;
+	padding: 0 20px;
 }
 .advantages-item-even{
 	margin-top: 50px;
@@ -61,6 +60,7 @@ body {
 .advantages-item-body {
 	padding: 35px 52px 35px 40px;
 	background-color: #fff;
+	max-width: 230px;
 }
 .advantages-item-image {
 	margin-bottom: 20px;
