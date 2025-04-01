@@ -1,0 +1,204 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+/* ============================================================================ */
+body {
+	font-family: "Poppins", sans-serif;
+	color: #808080;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+.header{
+	margin-bottom: 30px;
+	padding: 50px 0;
+	color: #211E2E;
+	text-transform: uppercase;
+}
+.header-container{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-size: 36px;
+	text-align: center;
+}
+/* ============================================================================ */
+.eco{
+	margin-bottom: 50px;
+}
+.eco-container {
+	max-width: 1350px;
+	padding: 0 15px;
+}
+.eco-content{
+	max-width: 648px;
+	padding-right: 5px;
+}
+.eco-text{
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.eco-text.remove-indent p{
+	padding-bottom: 0;
+}
+.eco-text.remove-indent{
+	margin-bottom: 0;
+}
+ .eco-text > p {
+	padding-bottom: 20px;
+ }
+ .eco-text > p + p{
+	padding-bottom: 0;
+ }
+/* ============================================================================ */
+.eco-list{
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+.eco-list-item{
+	margin-bottom: 14px;
+	background: url("../img/eco/check.svg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+	padding-left: 28px;
+}
+.eco-list-item-last{
+	margin-bottom: 0;
+}
+/* ============================================================================ */
+.hydra{
+	font-family: "Montserrat", sans-serif;
+	background: #302C42;
+	color: #fff;
+	padding: 100px 0;
+	overflow: hidden;
+}
+.hydra-container{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.hydra-items{
+	margin: 0 -15px;
+	font-size: 0;
+	padding: 25px 0;
+	background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+	border-radius: 90px;
+	margin-bottom: 100px;
+}
+.hydra-item{
+	display: inline-block;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	font-size: 16px;
+	max-width: 432px;
+	width: 100%;
+	padding: 0 20px;
+}
+.hydra-item-body{
+	min-height: 110px;
+	padding-top: 30px;
+	max-width: 300px;
+	width: 100%;
+}
+.hydra-item-title{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.20;
+	margin-bottom: 10px;
+}
+.hydra-item-link{
+	font-size: 14px;
+	line-height: 1.20;
+}
+.hydra-item-visit{
+	background: url("../img/hydra/location.svg") 35px 30px / 60px 60px no-repeat;
+	min-height: 60px;
+	padding-left: 108px;
+}
+.hydra-item-call{
+	background: url("../img/hydra/phone.svg") 30px 30px / 60px no-repeat;
+	min-height: 60px;
+	padding-left: 110px;
+}
+.hydra-item-email{
+	background: url("../img/hydra/email.svg") 30px 35px / 60px no-repeat;
+	min-height: 60px;
+	padding-left: 110px;
+	border: none;
+}
+/* ============================================================================ */
+.about{
+	background: url("../img/hydra/lines.svg") 0 45px / 100% no-repeat;
+}
+.about-items{
+	margin: 0 -15px;
+	font-size: 0;
+}
+.about-item{
+	display: inline-block;
+	padding: 0 15px;
+	vertical-align: top;
+	font-size: 16px;
+	max-width: 650px;
+	width: 100%;
+}
+.about-vr {
+	display: block;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.about-content-title {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.22;
+	margin-bottom: 42px;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+.about-text {
+	line-height: 1.62;
+	margin-bottom: 28px;
+}
+.about-link {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #343045;
+	padding: 16px 45px;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	text-transform: uppercase;
+	min-width: 150px;
+}
+.about-img{
+	max-width: 524px;
+	width: 100%;
+}
+.about-img img{
+	max-width: 100%;
+	border-radius: 45.8% 19% 45.8% 20% / 45.8% 19% 45.8% 20%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer{
+	font-size: 20px;
+	color: #211E2E;
+	padding: 50px 0;
+}
+.footer-container{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-size: 36px;
+	text-align: center;
+}
+
+
+
+
