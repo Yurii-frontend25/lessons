@@ -43,14 +43,14 @@ body {
 	font-weight: 400;
 }
 .meet-body > div {
-	margin: -5px -10px;
+	margin: 0 -10px -10px;
 	font-size: 0;
 }
 .meet-body > div > div {
 	display: inline-block;
 	max-width: 406px;
 	font-size: 16px;
-	padding: 5px 10px;
+	padding: 0 10px 10px;
 	vertical-align: top;
 }
 .meet-body > div > div > div {
