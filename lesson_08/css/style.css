@@ -51,7 +51,6 @@ body {
 }
 .image p {
 	display: inline-block;
-	/* padding-left: 10px; */
 }
 .box-images > *:last-child {
 	margin-bottom: 0;
