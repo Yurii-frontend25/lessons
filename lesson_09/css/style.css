@@ -1,0 +1,348 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Компоненти */
+/* @import url("button.css"); */
+/* .... */
+
+/* Основні стилі */
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+[class*="__container"] {
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/* ================================================================================= */
+.header {
+	text-align: center;
+	padding: 20px 0;
+}
+.page-advantages {
+}
+.advantages {
+	overflow: hidden;
+}
+.advantages__items {
+	margin: 0 -15px -10px;
+	font-size: 0;
+}
+.advantages__item {
+	display: inline-block;
+	padding: 0 15px 10px;
+	/* max-width: 325px; */
+	width: 25%;
+	font-size: 16px;
+	min-height: 224px;
+	vertical-align: top;
+}
+.item-advantages__body {
+	padding: 40px 0;
+	text-align: center;
+}
+.item-advantages__icon {
+	margin-bottom: 16px;
+}
+.item-advantages__title {
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+.item-advantages__text {
+	font-size: 14px;
+	color: #999999;
+}
+/* ============================================================================== */
+.featured {
+	overflow: hidden;
+	padding: 80px 0;
+}
+.featured__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.title {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.featured__title {
+}
+.link-arrow {
+	color: #00B207;
+	font-size: 16px;
+	font-weight: 500;
+}
+.link-arrow:hover {
+	text-decoration: underline;
+}
+.link-arrow::after {
+	content: "";
+	background: url("../img/featured/green-arrow.svg") 0 0 / 15px 12px no-repeat;
+	width: 15px;
+	height: 12px;
+}
+.item-featured__labels {
+	position: relative;
+}
+.featured__items {
+	margin: 0 -15px -10px;
+	font-size: 0;
+}
+.featured__item {
+	display: inline-block;
+	padding: 0 15px 10px;
+	font-size: 16px;
+	width: 25%;
+	vertical-align: top;
+}
+.item-featured__labels {
+	z-index: 2;
+}
+.item-featured__label {
+	position: relative;
+	left: 16px;
+	top: 16px;
+}
+.item-featured__label--price {
+	background-color: #EA4B48;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	padding: 3px 8px;
+	position: absolute;
+}
+.item-featured__link-image {
+	width: 100%;
+}
+.item-featured__body {
+	padding: 16px;
+	border: 1px solid #E6E6E6;
+	border-radius: 8px;
+	position: relative;
+}
+.item-featured__body:hover {
+	border: 1px solid #00B207;
+}
+.item-featured__body:hover .actions-featured {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.item-featured__title {
+	font-size: 14px;
+	color: #4D4D4D;
+}
+.item-featured__link-title {
+}
+.item-featured__prices {
+}
+.item-featured__content {
+	display: inline-block;
+}
+.item-featured__price {
+	font-weight: 500;
+	font-size: 16px;
+	display: inline-block;
+}
+.item-featured__price--old {
+	text-decoration: line-through;
+	color: #999999;
+	font-size: 16px;
+}
+.item-featured__icon {
+}
+.item-featured__cart {
+	padding: 6px 10px;
+	background-color: #E6E6E6;
+	border-radius: 50%;
+}
+.item-featured__rating {
+}
+.actions-featured {
+	display: none;
+	position: relative;
+}
+ .top {
+	margin-bottom: 6px;
+	border-radius: 50%;
+	background-color: #F2F2F2;
+	padding: 10px 12px;
+ }
+ .bottom {
+	border-radius: 50%;
+	background-color: #F2F2F2;
+	padding: 10px 12px;
+ }
+/* ============================================================================== */
+.page-shop {
+	background-color: #EBEBE9;
+}
+.shop {
+	padding: 80px 0;
+	overflow: hidden;
+}
+.shop__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.shop__items {
+	margin: 0 -15px -10px;
+	font-size: 0;
+	position: relative;
+}
+.shop__item {
+	display: inline-block;
+	padding: 0 15px 10px;
+	max-width: 225px;
+	width: 100%;
+	font-size: 14px;
+	vertical-align: top;
+}
+.item-shop-categories__content {
+	background-color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 38px 0 24px;
+	min-height: 210px;
+}
+.item-shop-categories__content img {
+	margin-bottom: 20px;
+}
+.item-shop-categories__title {
+	margin-bottom: 6px;
+}
+.shop__button {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	cursor: pointer;
+}
+.arrow-left {
+	left: -60px;
+}
+.arrow-right {
+	right: -60px;
+}
+.arrow-left,
+.arrow-right {
+	border-radius: 50%;
+	border: 1px solid #d7cfcf6c;
+	padding: 16px;
+}
+/* ============================================================================== */
+.article {
+	background-color: #EBEBE9;
+}
+.article__items {
+	margin: 0 -15px -15px;
+	font-size: 0;
+}
+.article__item {
+	display: inline-block;
+	padding: 0 15px 15px;
+	font-size: 18px;
+}
+.article__body {
+	padding-top: 96px;
+	padding-bottom: 70px;
+}
+.article__images {
+	margin: 0 -15px -10px;
+	font-size: 0;
+}
+.article__item--top {
+	vertical-align: top;
+}
+.article__image {
+	display: inline-block;
+	padding: 0 15px 10px;
+	font-size: 16px;
+}
+.article__image--small {
+	display: inline-block;
+	vertical-align: top;
+}
+.article__image--big {
+	display: inline-block;
+}
+.article__image--small img,
+.article__image--big img {
+	border-radius: 8px;
+}
+.article__content {
+	max-width: 540px;
+}
+.article__title {
+	margin-bottom: 26px;
+}
+.article__list {
+	padding-left: 36px;
+}
+.list-article__item {
+	margin-bottom: 26px;
+}
+.list-article__item::before {
+	content: "";
+	background: url("../img/article/check.svg") 0 0 / 24px no-repeat;
+	width: 24px;
+	min-height: 24px;
+	margin-left: -36px;
+	vertical-align: top;
+}
+.item-article {
+}
+.list-article__title {
+	font-weight: 500;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-left: 12px;
+}
+.list-article__text {
+	font-size: 14px;
+	color: #808080;
+	padding-left: 5px;
+}
+.article__button {
+	line-height: 1.2;
+	font-weight: 600;
+	padding: 16px 40px 16px 40px;
+	background-color: #00B207;
+	color: #fff;
+	border-radius: 43px;
+	min-width: 150px;
+}
+.article__button::after {
+	content: '';
+	background: url("../img/article/arrow-white.svg") 10px 0 / 12px 15px no-repeat;
+	width: 12px;
+	height: 15px;
+	vertical-align: middle;
+	padding-left: 26px;
+}
+.btn {
+}
+.footer {
+	text-align: center;
+	padding: 40px 0;
+}
+/* ============================================================================== */
