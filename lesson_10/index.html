@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 10: Positioning</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div>Lesson 10: #Positioning</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="featured">
+				<div class="featured__container featured__container--mod">
+					<div class="featured__header block-header">
+						<h2 class="block-header__title title">Featured Products</h2>
+					</div>
+					<div class="featured__items">
+						<div class="featured__item item-featured">
+							<div class="item-featured__body">
+								<div class="item-featured__labels">
+									<div class="item-featured__label item-featured__label--price">Sale 50%</div>
+								</div>
+								<div class="item-featured__image">
+									<a class="item-featured__link-image" href="#">
+										<img src="img/featured/apples.webp" alt="green apples">
+									</a>
+								</div>
+								<div class="item-featured__content">
+									<h3 class="item-featured__title">
+										<a class="item-featured__link-title" href="#"><span>Green Apple</span></a>
+									</h3>
+									<div class="item-featured__prices">
+										<div class="item-featured__price">$14.99</div>
+										<div class="item-featured__price item-featured__price--old"> $20.99 </div>
+									</div>
+								</div>
+								<div class="item-featured__icon">
+									<a class="item-featured__link-icon item-featured__link-icon--mod" href="#">
+										<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333"
+												stroke="" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div class="item-featured__actions action-featured">
+									<div class="action-featured__links">
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 16.5451C-6.66672 7.3333 4.99993 -2.6667 9.9996 3.65668C14.9999 -2.6667 26.6666 7.3333 9.9996 16.5451Z"
+													stroke="" stroke-width="1.5" />
+											</svg>
+										</a>
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 1.54102C3.75 1.54102 1.25 8.00007 1.25 8.00007C1.25 8.00007 3.75 14.4577 10 14.4577C16.25 14.4577 18.75 8.00007 18.75 8.00007C18.75 8.00007 16.25 1.54102 10 1.54102V1.54102Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path
+													d="M10 11.125C10.8288 11.125 11.6237 10.7958 12.2097 10.2097C12.7958 9.62366 13.125 8.8288 13.125 8C13.125 7.1712 12.7958 6.37634 12.2097 5.79029C11.6237 5.20424 10.8288 4.875 10 4.875C9.1712 4.875 8.37634 5.20424 7.79029 5.79029C7.20424 6.37634 6.875 7.1712 6.875 8C6.875 8.8288 7.20424 9.62366 7.79029 10.2097C8.37634 10.7958 9.1712 11.125 10 11.125V11.125Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="featured__item item-featured">
+							<div class="item-featured__body">
+								<div class="item-featured__image">
+									<a class="item-featured__link-image" href="#">
+										<img src="img/featured/cabbage.webp" alt="Chanise Cabbage">
+									</a>
+								</div>
+								<div class="item-featured__content">
+									<h3 class="item-featured__title">
+										<a class="item-featured__link-title" href="#">Chanise Cabbage</a>
+									</h3>
+									<div class="item-featured__prices">
+										<div class="item-featured__price">$14.99</div>
+									</div>
+								</div>
+								<div class="item-featured__icon">
+									<a class="item-featured__link-icon item-featured__link-icon--mod" href="#">
+										<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333"
+												stroke="" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div class="item-featured__actions action-featured">
+									<div class="action-featured__links">
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 16.5451C-6.66672 7.3333 4.99993 -2.6667 9.9996 3.65668C14.9999 -2.6667 26.6666 7.3333 9.9996 16.5451Z"
+													stroke="" stroke-width="1.5" />
+											</svg>
+										</a>
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 1.54102C3.75 1.54102 1.25 8.00007 1.25 8.00007C1.25 8.00007 3.75 14.4577 10 14.4577C16.25 14.4577 18.75 8.00007 18.75 8.00007C18.75 8.00007 16.25 1.54102 10 1.54102V1.54102Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path
+													d="M10 11.125C10.8288 11.125 11.6237 10.7958 12.2097 10.2097C12.7958 9.62366 13.125 8.8288 13.125 8C13.125 7.1712 12.7958 6.37634 12.2097 5.79029C11.6237 5.20424 10.8288 4.875 10 4.875C9.1712 4.875 8.37634 5.20424 7.79029 5.79029C7.20424 6.37634 6.875 7.1712 6.875 8C6.875 8.8288 7.20424 9.62366 7.79029 10.2097C8.37634 10.7958 9.1712 11.125 10 11.125V11.125Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="featured__item item-featured">
+							<div class="item-featured__body">
+								<div class="item-featured__image">
+									<a class="item-featured__link-image" href="#">
+										<img src="img/featured/capsicum.webp" alt="Green capsicum">
+									</a>
+								</div>
+								<div class="item-featured__content">
+									<h3 class="item-featured__title">
+										<a class="item-featured__link-title" href="#">Green capsicum</a>
+									</h3>
+									<div class="item-featured__prices">
+										<div class="item-featured__price">$14.99</div>
+									</div>
+								</div>
+								<div class="item-featured__icon">
+									<a class="item-featured__link-icon item-featured__link-icon--mod" href="#">
+										<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333"
+												stroke="" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div class="item-featured__actions action-featured">
+									<div class="action-featured__links">
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 16.5451C-6.66672 7.3333 4.99993 -2.6667 9.9996 3.65668C14.9999 -2.6667 26.6666 7.3333 9.9996 16.5451Z"
+													stroke="" stroke-width="1.5" />
+											</svg>
+										</a>
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 1.54102C3.75 1.54102 1.25 8.00007 1.25 8.00007C1.25 8.00007 3.75 14.4577 10 14.4577C16.25 14.4577 18.75 8.00007 18.75 8.00007C18.75 8.00007 16.25 1.54102 10 1.54102V1.54102Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path
+													d="M10 11.125C10.8288 11.125 11.6237 10.7958 12.2097 10.2097C12.7958 9.62366 13.125 8.8288 13.125 8C13.125 7.1712 12.7958 6.37634 12.2097 5.79029C11.6237 5.20424 10.8288 4.875 10 4.875C9.1712 4.875 8.37634 5.20424 7.79029 5.79029C7.20424 6.37634 6.875 7.1712 6.875 8C6.875 8.8288 7.20424 9.62366 7.79029 10.2097C8.37634 10.7958 9.1712 11.125 10 11.125V11.125Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="featured__item item-featured">
+							<div class="item-featured__body">
+								<div class="item-featured__image">
+									<a class="item-featured__link-image" href="#">
+										<img src="img/featured/finger.webp" alt="ladies finger">
+									</a>
+								</div>
+								<div class="item-featured__content">
+									<h3 class="item-featured__title">
+										<a class="item-featured__link-title" href="#">Ladies finger</a>
+									</h3>
+									<div class="item-featured__prices">
+										<div class="item-featured__price">$14.99</div>
+									</div>
+								</div>
+								<div class="item-featured__icon">
+									<a class="item-featured__link-icon item-featured__link-icon--mod" href="#">
+										<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333"
+												stroke="" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div class="item-featured__actions action-featured">
+									<div class="action-featured__links">
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 16.5451C-6.66672 7.3333 4.99993 -2.6667 9.9996 3.65668C14.9999 -2.6667 26.6666 7.3333 9.9996 16.5451Z"
+													stroke="" stroke-width="1.5" />
+											</svg>
+										</a>
+										<a class="action-featured__link action-featured__link--mod" href="#">
+											<svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 1.54102C3.75 1.54102 1.25 8.00007 1.25 8.00007C1.25 8.00007 3.75 14.4577 10 14.4577C16.25 14.4577 18.75 8.00007 18.75 8.00007C18.75 8.00007 16.25 1.54102 10 1.54102V1.54102Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path
+													d="M10 11.125C10.8288 11.125 11.6237 10.7958 12.2097 10.2097C12.7958 9.62366 13.125 8.8288 13.125 8C13.125 7.1712 12.7958 6.37634 12.2097 5.79029C11.6237 5.20424 10.8288 4.875 10 4.875C9.1712 4.875 8.37634 5.20424 7.79029 5.79029C7.20424 6.37634 6.875 7.1712 6.875 8C6.875 8.8288 7.20424 9.62366 7.79029 10.2097C8.37634 10.7958 9.1712 11.125 10 11.125V11.125Z"
+													stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modern">
+				<div class="modern__container">
+					<div class="modern__rows">
+						<div class="modern__row modern__row--top row-modern">
+							<div class="row-modern__items">
+								<div class="row-modern__item">
+									<div class="row-modern__body">
+										<div class="row-modern__circles">
+											<div class="row-modern__small-circle circle row-modern__small-circle--top">
+											</div>
+											<div class="row-modern__big-circle circle"></div>
+										</div>
+										<div class="row-modern__images">
+											<div class="row-modern__image">
+												<img class="row-modern__img" src="img/modern/img-top.webp"
+													alt="Two young girls on the floor with a laptop, discussing and working together in a casual setting">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row-modern__item">
+									<div class="row-modern__block block-modern block-modern--top">
+										<h2 class="block-modern__title title block-modern__title--top">
+											The Industry's Top-Rated GRC and Audit Management Technology
+										</h2>
+										<div class="block-modern__text text">
+											<p>
+												Built to provide the efficiency, connectedness, and visibility you need to
+												stay
+												ahead of today’s dynamic risk environment. Built to provide the efficiency,
+												connectedness, and visibility you need to stay ahead of today’s dynamic
+												risk
+												environment.
+											</p>
+										</div>
+										<div class="block-modern__actions">
+											<a class="block-modern__button button" href="#">
+												Read the Documentation
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modern__row modern__row--bottom row-modern">
+							<div class="row-modern__items row-modern__items--left">
+								<div class="row-modern__item row-modern__item--left">
+									<div class="row-modern__block block-modern block-modern--bottom">
+										<h2 class="block-modern__title title block-modern__title--bottom">
+											Explore the Modern Connected Risk Platform
+										</h2>
+										<div class="block-modern__text text">
+											<p>
+												Built to provide the efficiency, connectedness, and visibility you need to
+												stay
+												ahead of today’s dynamic risk environment. Built to provide the efficiency,
+												connectedness, and visibility you need to stay ahead of today’s dynamic
+												risk
+												environment.
+											</p>
+										</div>
+										<div class="block-modern__actions">
+											<a class="block-modern__button button" href="#">
+												Read the Documentation
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="row-modern__item">
+									<div class="row-modern__body row-modern__body--bottom">
+										<div class="row-modern__circles">
+											<div class="row-modern__small-circle circle row-modern__small-circle--bottom">
+											</div>
+											<div class="row-modern__medium-circle circle"></div>
+										</div>
+										<div class="row-modern__images">
+											<div class="row-modern__image row-modern__image--bottom">
+												<img class="row-modern__img" src="img/modern/img-bottom.webp"
+													alt="Several individuals seated at a table, collaborating on a project or sharing ideas">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				footer
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
