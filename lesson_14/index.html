@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14: Forms</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				Lesson 14: #Forms
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__information information">
+				<div class="information__container">
+					<div class="information__inner">
+						<form class="form" action="#" enctype="multipart/form-data">
+							<div class="form__column">
+								<h2 class="form__title title">Billing Information</h2>
+								<div class="form__group">
+									<div class="form__item form__item--width">
+										<label class="form__label" for="first_name">First name</label>
+										<input id="first_name" class="form__input" type="text" placeholder="Your first name"
+											name="form[]" required autocomplete="off">
+									</div>
+									<div class="form__item form__item--width">
+										<label class="form__label" for="last_name">Last name</label>
+										<input id="last_name" class="form__input" type="text" placeholder="Your last name"
+											name="form[]" required autocomplete="off">
+									</div>
+									<div class="form__item form__item--width">
+										<label class="form__label" for="company_name">Company Name <span>(optional)</span></label>
+										<input id="company_name" class="form__input" type="text" placeholder="Company name"
+											name="form[]" required autocomplete="off">
+									</div>
+								</div>
+								<div class="form__group">
+									<div class="form__item form__item--max-width">
+										<label class="form__label" for="street_address">Street Address</label>
+										<input id="street_address" class="form__input" type="text" placeholder="Street Address"
+											name="form[]" required autocomplete="off">
+									</div>
+								</div>
+								<div class="form__group">
+									<div class="form__item form__item--width">
+										<label class="form__label" for="select_country">Country / Region</label>
+										<select id="select_country" required class="form__select" name="form[country]">
+											<option value disabled selected hidden>Select</option>
+											<option value="1">Country 1</option>
+											<option value="2">Country 2</option>
+											<option value="3">Country 3</option>
+										</select>
+									</div>
+									<div class="form__item form__item--width">
+										<label class="form__label" for="select_state">States</label>
+										<select id="select_state" required class="form__select" name="form[state]">
+											<option value disabled selected hidden>Select</option>
+											<option value="1">State 1</option>
+											<option value="2">State 2</option>
+											<option value="3">State 3</option>
+										</select>
+									</div>
+									<div class="form__item form__item--width">
+										<label class="form__label" for="zip_code">Zip Code</label>
+										<input id="zip_code" class="form__input" placeholder="Zip Code" type="number"
+											autocomplete="off" name="form[zip code]" required>
+									</div>
+								</div>
+								<div class="form__group">
+									<div class="form__item">
+										<label class="form__label" for="label_email">Email</label>
+										<input id="label_email" class="form__input" type="email" placeholder="Email Address"
+											name="form[email]" required autocomplete="off">
+									</div>
+									<div class="form__item">
+										<label class="form__label" for="label_phone">Phone</label>
+										<input id="label_phone" class="form__input" type="tel" placeholder="Phone number"
+											name="form[phone]" required autocomplete="off">
+									</div>
+								</div>
+								<div class="form__group form__group--line">
+									<label class="checkbox">
+										<input class="checkbox__input" type="checkbox">
+										<span class="checkbox__label">Ship to a different address</span>
+									</label>
+								</div>
+								<h2 class="form__title title">Additional Info</h2>
+								<div class="form__group">
+									<div class="form__item">
+										<label class="form__label" for="order_notes">Order Notes <span>(Optional)</span></label>
+										<textarea id="order_notes" class="form__textarea" name="form[]"
+											placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="form__column form__column--left">
+								<div class="form__inner">
+									<div class="form__order order">
+										<h3 class="order__title title">Order Summery</h3>
+										<div class="order__group">
+											<div class="order__box">
+												<a class="order__link" href="#" target="_blank">
+													<picture>
+														<source srcset="img/order/green-capsicum.webp" type="image/webp">
+														<img class="order__image" src="img/order/green-capsicum.jpg"
+															alt="Two green capsicum">
+													</picture>
+												</a>
+												<a class="order__sort" href="#" target="_blank">Green Capsicum</a>
+												<label class="order__label">
+													<span class="order__quantity">x</span>
+													<input class="order__input" type="number" autocomplete="off" value="5">
+												</label>
+												<div class="order__price price">$70.00</div>
+											</div>
+										</div>
+										<div class="order__group">
+											<div class="order__box">
+												<a class="order__link" href="#" target="_blank">
+													<picture>
+														<source srcset="img/order/red-capsicum.webp" type="image/webp">
+														<img class="order__image" src="img/order/red-capsicum.jpg"
+															alt="Two green capsicum">
+													</picture>
+												</a>
+												<a class="order__sort" href="#" target="_blank">Red Capsicum</a>
+												<label class="order__label">
+													<span>x</span>
+													<input class="order__input" type="number" autocomplete="off" value="1">
+												</label>
+												<div class="order__price price">$14.00</div>
+											</div>
+										</div>
+										<div class="order__total-group">
+											<div class="order__group">
+												<div class="order__subtitle">Subtotal:</div>
+												<div class="order__price price">$84.00</div>
+											</div>
+											<div class="order__group">
+												<div class="order__subtitle">Shipping:</div>
+												<div class="order__price price">Free</div>
+											</div>
+											<div class="order__group order__group--total">
+												<div class="order__subtitle order__subtitle--total">Total:</div>
+												<div class="order__price price"><span>$84.00</span></div>
+											</div>
+										</div>
+									</div>
+									<div class="form__order method">
+										<h3 class="method__title title">Payment Method</h3>
+										<div class="method__box">
+											<div class="method__line">
+												<label class="method__checkbox">
+													<input class="method__input" type="checkbox" checked>
+													<span class="method__label">Cash on Delivery</span>
+												</label>
+											</div>
+											<div class="method__line">
+												<label class="method__checkbox">
+													<input class="method__input" type="checkbox">
+													<span class="method__label">Paypal</span>
+												</label>
+											</div>
+											<div class="method__line">
+												<label class="method__checkbox">
+													<input class="method__input" type="checkbox">
+													<span class="method__label">Amazon Pay</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<button class="form__btn button" type="submit">Place Order</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">Footer</div>
+		</footer>
+	</div>
+</body>
+
+</html>
