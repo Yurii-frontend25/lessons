@@ -309,7 +309,9 @@ body {
 	display: grid;
 	gap: 16px;
 	position: relative;
+	align-self: self-start;
 }
+/* ===========================================================================*/
 .item-column {
 	display: grid;
 	position: relative;
@@ -554,23 +556,6 @@ body {
 	left: 0;
 }
 /* ========================================================================= */
-.blossomia {
-	font-family: "KoPubBatang", serif;
-	font-size: 20px;
-	background-color: #f8f3ec;
-	padding: 30px 0;
-}
-.blossomia__container {
-	max-width: 1230px;
-	display: grid;
-	grid-template-columns: 33.333% auto;
-	gap: 30px;
-}
-.blossomia__items {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
 .card {
 	display: flex;
 	flex-direction: column;
@@ -623,6 +608,24 @@ body {
 	color: #4e4e4e;
 	line-height: 1.2;
 }
+/* ========================================================================= */
+.blossomia {
+	font-family: "KoPubBatang", serif;
+	font-size: 20px;
+	background-color: #f8f3ec;
+	padding: 30px 0;
+}
+.blossomia__container {
+	max-width: 1230px;
+	display: grid;
+	grid-template-columns: 33.333% auto;
+	gap: 30px;
+}
+.blossomia__items {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
 .blossomia__item--margin:not(:last-child) {
 	margin-bottom: 35px;
 }
@@ -663,6 +666,7 @@ body {
 	font-weight: 300;
 	padding: 50px 0;
 }
+/* ========================================================================= */
 .actions-blossomia {
 	display: flex;
 	gap: 20px;
