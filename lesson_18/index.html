@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 18: Semantics</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container"></div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<article class="page__article article">
+					<figure class="article__image-main-top">
+						<picture>
+							<source srcset="#" type="image/webp">
+							<img src="#" alt="#">
+						</picture>
+					</figure>
+					<section class="article__top-section section-top">
+						<ul class="section-top__info-head">
+							<li><a href="#" target="_blank" rel="noopener noreferrer"><span>Food</span></a></li>
+							<li><a href="#" target="_blank" rel="noopener noreferrer"><span>By Admin</span></a></li>
+							<li><a href="#" target="_blank" rel="noopener noreferrer"><span>65 Comments</span></a></li>
+						</ul>
+						<h2 class="section-top__title">
+							Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.
+						</h2>
+						<div class="section-top__info-footer info-footer">
+							<div class="info-footer__author">
+								<figure>
+									<img src="#" alt="#">
+									<figcaption>
+										<h3 class="info-footer__name">Cameron Williamson</h3>
+									</figcaption>
+								</figure>
+								<div class="info-footer__date">
+									<time datetime="2021-04-04">4 April, 2021</time>
+									<span>•6 min read</span>
+								</div>
+							</div>
+							<ul class="info-footer__social">
+								<li>
+									<a href="#" rel="noopener noreferrer" target="_blank">
+										<svg role="img" aria-label="facebook pofile"></svg>
+									</a>
+								</li>
+								<li>
+									<a href="#" rel="noopener noreferrer" target="_blank">
+										<svg role="img" aria-label="twitter pofile"></svg>
+									</a>
+								</li>
+								<li>
+									<a href="#" rel="noopener noreferrer" target="_blank">
+										<svg role="img" aria-label="pinterest pofile"></svg>
+									</a>
+								</li>
+								<li>
+									<a href="#" rel="noopener noreferrer" target="_blank">
+										<svg role="img" aria-label="instagram pofile"></svg>
+									</a>
+								</li>
+								<li>
+									<a href="#" rel="noopener noreferrer" target="_blank">
+										<svg role="img" aria-label="social pofile"></svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="article__content content-article">
+						<h3 class="content-article__title">
+							Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque imperdiet.
+							Phasellus tristique felis dolor.
+						</h3>
+						<p>Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce malesuada
+							sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in erat vehicula,
+							quis fermentum ex finibus.
+						</p>
+						<p>Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat
+							quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim justo, at
+							fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra neque, malesuada
+							consectetur diam sapien volutpat risus.
+							Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex
+							convallis suscipit. ur ridiculus mus.
+						</p>
+						<div class="content-article__images">
+							<figure>
+								<source srcset="#" type="image/webp">
+								<img src="#" alt="#">
+							</figure>
+							<figure>
+								<source srcset="#" type="image/webp">
+								<img src="#" alt="#">
+							</figure>
+						</div>
+						<p>
+							Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis vehicula ut, vestibulum ut
+							mauris. Nullam non felis varius dui rutrum rutrum in a nisi. Suspendisse elementum rutrum lorem sed
+							luctus. Proin iaculis euismod metus non sollicitudin. Duis vel luctus lacus. Nullam faucibus
+							iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a. Integer accumsan arcu
+							nec faucibus ultricies.
+						</p>
+					</section>
+					<section class="article__banner banner">
+						<figure class="banner__image">
+							<picture>
+								<source srcset="#" type="image/webp">
+								<img src="#" alt="#">
+							</picture>
+						</figure>
+						<div class="banner__body">
+							<div class="banner__content">
+								<h3 class="banner__title">Summer Sales <span>Fresh Fruit</span></h3>
+								<a class="banner__link" href="#" target="_blank" rel="noopener noreferrer">
+									<span>Shop now</span>
+								</a>
+							</div>
+							<div class="banner__discount-info">
+								<span>up to</span>
+								<span class="banner__percent">56%</span>
+								<span>Off</span>
+							</div>
+						</div>
+					</section>
+					<section class="article__section-form section-form">
+						<h3 class="section-form__title">Leave a Comment</h3>
+						<form class="section-form__body" action="#" enctype="multipart/form-data">
+							<div class=" section-form__items">
+								<label class="section-form__item">
+									<span>Full Name</span>
+									<input type="text" placeholder="Zakir Hossen" autocomplete="off" name="form[]" required>
+								</label>
+								<label class="section-form__item">
+									<span>Email</span>
+									<input type="text" placeholder="zakirsoft.20@g|" autocomplete="off" name="form[]" required>
+								</label>
+							</div>
+							<label class="section-form__textarea">
+								<span>Message</span>
+								<textarea name="form[]" placeholder="Write your comment here…"></textarea>
+							</label>
+							<label class="section-form__checkbox">
+								<span>Save my name and email in this browser for the next time I comment.</span>
+							</label>
+							<button class="section-form__button button">Post Comments</button>
+						</form>
+					</section>
+					<section class="article__section-comments comments">
+						<h3 class="comments__title">Comments</h3>
+						<ul class="comments__list">
+							<li class="comments__item">
+								<article>
+									<figure class="comments__avatar">
+										<img src="#" alt="#">
+									</figure>
+									<div class="comments__info">
+										<div class="comments__body">
+											<h4 class="comments__name">Annette Black</h4>
+											<span>•</span>
+											<time datetime="2021-04-26">26 Apr, 2021</time>
+										</div>
+										<blockquote>
+											In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu
+											aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.
+										</blockquote>
+									</div>
+								</article>
+							</li>
+							<li class="comments__item">
+								<article>
+									<figure class="comments__avatar">
+										<img src="#" alt="#">
+									</figure>
+									<div class="comments__info">
+										<div class="comments__body">
+											<h4 class="comments__name">Devon Lane</h4>
+											<span>•</span>
+											<time datetime="2021-04-24">24 Apr, 2020</time>
+										</div>
+										<blockquote>
+											Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat
+											quis ex convallis suscipit. Nam hendrerit, velit ut aliquam euismod, nibh tortor rutrum
+											nisi, ac sodales nunc eros porta nisi. Sed scelerisque, est eget aliquam venenatis, est
+											sem tempor eros.
+										</blockquote>
+									</div>
+								</article>
+							</li>
+							<li class="comments__item">
+								<article>
+									<figure class="comments__avatar">
+										<img src="#" alt="#">
+									</figure>
+									<div class="comments__info">
+										<div class="comments__body">
+											<h4 class="comments__name">Jacob Jones</h4>
+											<span>•</span>
+											<time datetime="2021-04-20">20 Apr, 2021</time>
+										</div>
+										<blockquote>
+											Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+										</blockquote>
+									</div>
+								</article>
+							</li>
+							<li class="comments__item">
+								<article>
+									<figure class="comments__avatar">
+										<img src="#" alt="#">
+									</figure>
+									<div class="comments__info">
+										<div class="comments__body">
+											<h4 class="comments__name">Jane Cooper</h4>
+											<span>•</span>
+											<time datetime="2021-04-18">18 Apr, 2021</time>
+										</div>
+										<blockquote>
+											Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh bibendum elit, a volutpat
+											arcu dui nec orci. Aenean dui odio, ullamcorper quis turpis ac, volutpat imperdiet ex.
+										</blockquote>
+									</div>
+								</article>
+							</li>
+							<li class="comments__item">
+								<article>
+									<figure class="comments__avatar">
+										<img src="#" alt="#">
+									</figure>
+									<div class="comments__info">
+										<div class="comments__body">
+											<h4 class="comments__name">Darrell Steward</h4>
+											<span>•</span>
+											<time datetime="2021-04-07">7 Apr, 2021</time>
+										</div>
+										<blockquote>
+											Nulla molestie interdum ultricies.
+										</blockquote>
+									</div>
+								</article>
+							</li>
+						</ul>
+						<button class="comments__button btn" type="button">Load More</button>
+					</section>
+				</article>
+				<aside class="page__aside aside">
+					<form class="aside__form" action="#" enctype="multipart/form-data">
+						<input class="aside__input" type="search" name="form[]" placeholder="Search...">
+					</form>
+					<section class="aside__categories categories">
+						<h3 class="categories__title">Top Categories</h3>
+						<ul class="categories__list">
+							<li class="categories__item">
+								<a href="#">Fresh Fruit<span>(134)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Vegetables<span>(150)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Cooking<span>(54)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Snacks<span>(47)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Beverages<span>(43)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Beauty & Health<span> (38)</span></a>
+							</li>
+							<li class="categories__item">
+								<a href="#">Bread & Bakery<span>(15)</span></a>
+							</li>
+						</ul>
+					</section>
+					<section class="aside__popular popular">
+						<h3 class="popular__title">Popular Tag</h3>
+						<ul class="popular__list">
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Healthy</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Low fat</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Vegetarian</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Bread</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Kid foods</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Vitamins</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Snacks</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Tiffin</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Meat</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Launch</a>
+							</li>
+							<li class="popular__item">
+								<a class="popular__link" href="#" target="_blank">Dinner</a>
+							</li>
+						</ul>
+					</section>
+					<section class="aside__gallery gallery">
+						<h3 class="gallery__title">Our Gallery</h3>
+						<ul class="gallery__list">
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+							<li class="gallery__item">
+								<a class="gallery__link" href="#" target="_blank">
+									<figure>
+										<img src="#" alt="#">
+									</figure>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<section class="aside__added added">
+						<h3 class="added__title">Recently Added</h3>
+						<ul class="added__list">
+							<li class="added__item">
+								<article>
+									<a class="added__link" href="#" target="_blank">
+										<figure>
+											<img src="#" alt="#">
+											<figcaption>
+												<h4>Curabitur porttitor orci eget nequ accumsan.</h4>
+											</figcaption>
+										</figure>
+										<div class="added__date">
+											<time datetime="2021-04-25"><span>Apr 25, 2021</span></time>
+										</div>
+									</a>
+								</article>
+							</li>
+							<li class="added__item">
+								<article>
+									<a class="added__link" href="#" target="_blank">
+										<figure>
+											<img src="#" alt="#">
+											<figcaption>
+												<h4>Donec mattis arcu faucibus suscipit viverra.</h4>
+											</figcaption>
+										</figure>
+										<div class="added__date">
+											<time datetime="2021-04-25"><span>Apr 25, 2021</span></time>
+										</div>
+									</a>
+								</article>
+							</li>
+							<li class="added__item">
+								<article>
+									<a class="added__link" href="#" target="_blank">
+										<figure>
+											<img src="#" alt="#">
+											<figcaption>
+												<h4>Quisque posuere tempus rutrum. Integer velit ex.</h4>
+											</figcaption>
+										</figure>
+										<div class="added__date">
+											<time datetime="2021-04-25"><span>Apr 25, 2021</span></time>
+										</div>
+									</a>
+								</article>
+							</li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container"></div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
