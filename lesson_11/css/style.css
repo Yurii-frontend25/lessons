@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+/* ============================================================== */
+@import url("reset.css");
+/* ============================================================== */
+body {
+	font-family: "Roboto", sans-serif;
+	background: rgba(32, 33, 34, 0.4);
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header {
+	padding: 20px 0;
+	background-color: #fff;
+	color: #1a1a1b32;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+}
+/* ================================================== */
+.block {
+	margin-bottom: 50px;
+}
+.block__container > * {
+	margin: 20px 24px 0 0;
+}
+.block__body {
+	perspective: 300px;
+	perspective-origin: center;
+}
+.block__body,
+.block3d {
+	background-color: #d4d0d09b;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 20px;
+	position: relative;
+}
+.block__item,
+.block3d__item {
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(33, 30, 30, 0.547);
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	color: rgb(250, 247, 247);
+	position: absolute;
+	top: 5px;
+	transition: all 0.4s ease;
+}
+.block3d {
+	transform-style: preserve-3d;
+}
+.block__body:hover .block__item--translate {
+	transform: translate(-20px, -5%);
+}
+.block__body:hover .block__item--scale {
+	transform: scale(1, 0.8);
+}
+.block__body:hover .block__item--scale-mirror {
+	transform: scale(1, -1);
+}
+.block__body:hover .block__item--rotate {
+	transform: rotateY(20deg);
+}
+.block__body:hover .block__item--skew {
+	transform: skew(-5deg, -10deg);
+}
+.block__body:hover .block__item--matrix {
+	/* transform: translate(10px, 10px) scale(0.7) skew(5deg) rotate(-15deg); */
+	transform: matrix(1, -0.5, 1, 0, -80, 3);
+}
+.block__body:hover .block__item--transform-origin {
+	transform: rotate(-45deg);
+	transform-origin: top right;
+}
+.block__body:hover .block__item--rotateX {
+	transform: rotateX(40deg);
+}
+.block__body:hover .block__item--rotateY {
+	transform: rotateY(60deg);
+}
+.block3d:hover .block3d__item--rotate3d {
+	transform: rotate3d(40, 20, 10, 25deg);
+}
+.block3d:hover .block3d__item--scale3d {
+	transform: scale3d(1, 0.3, 2);
+}
+.block3d:hover .block3d__item--preserve3d {
+	transform: rotateX(45deg);
+}
+.block3d:hover .block3d__item--transform {
+	transform: rotateY(55deg);
+}
+.block3d:hover .block3d__item--backface {
+	transform: rotateY(120deg);
+	backface-visibility: hidden;
+}
+/* ================================================== */
+.box {
+	margin-top: 50px;
+}
+.card {
+	display: inline-block;
+}
+.card__body {
+	position: relative;
+	perspective: 800px;
+}
+.card__back,
+.card__front {
+	overflow: hidden;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+}
+.card__front {
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+}
+.card__back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotateX(180deg);
+}
+.card__body:hover .card__back {
+	transform: rotate(0deg);
+}
+.card__body:hover .card__front {
+	transform: rotatex(-180deg);
+}
+/* ================================================== */
+.helicopter__container {
+	padding: 100px 0 0 0;
+}
+.helicopter__body {
+	position: relative;
+	z-index: 1;
+	width: 600px;
+	margin: 0 auto;
+}
+.helicopter__vint {
+	background-color: black;
+	max-width: 500px;
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 20px;
+	transition: all 0.5s ease;
+}
+.helicopter__vint::after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	background-color: black;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+}
+.helicopter__base-vint {
+	background-color: black;
+	width: 80px;
+	height: 20px;
+	left: 50%;
+	top: 30px;
+	position: relative;
+	transform: translate(-50%, 0);
+}
+.helicopter__base-vint::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid black;
+}
+.helicopter__cabin {
+	width: 500px;
+	height: 200px;
+	background-color: darkolivegreen;
+	margin: 60px auto;
+	border-top-right-radius: 45%;
+	border-bottom-right-radius: 53%;
+	border-bottom-left-radius: 200px;
+	border-top-left-radius: 0px;
+	position: relative;
+}
+.helicopter__cabin::after {
+	content: "";
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	background-color: darkolivegreen;
+	top: 0;
+	left: -270px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.helicopter__window {
+	width: 170px;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: 120px;
+	right: 70px;
+	border-top-right-radius: 150%;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 10%;
+	border-top-left-radius: 10%;
+}
+.helicopter__tail {
+	width: 70px;
+	position: absolute;
+	top: 32px;
+	left: -200px;
+	transform: skew(30deg);
+	border-left: 0px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 70px solid darkolivegreen;
+}
+.helicopter__shassi {
+	width: 400px;
+	height: 20px;
+	background-color: black;
+	margin: 0 auto;
+	position: relative;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	bottom: 20px;
+}
+.helicopter__shassi::before {
+	content: "";
+	width: 20px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	left: 100px;
+	top: -50px;
+	transform: skewX(-20deg);
+}
+.helicopter__shassi::after {
+	content: "";
+	width: 20px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	left: 250px;
+	top: -50px;
+	transform: skewX(-20deg);
+}
+.helipad {
+	width: 600px;
+	height: 250px;
+	background-color: rgba(89, 72, 72, 0.4);
+	border-radius: 50%;
+	border: 10px solid white;
+	color: white;
+	margin: 0 auto;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: -150px;
+}
+.helipad::after {
+	content: "H";
+	position: absolute;
+	font-size: 200px;
+	transform: translate(-50%, 50%);
+	top: -90px;
+	left: 50%;
+}
